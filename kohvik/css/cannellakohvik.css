@@ -261,7 +261,6 @@ font-family: 'Raleway', sans-serif; */
     background-image: url(../img/coffee/d.jpg);
 }
 
-.coffee__inner-price {
-}
-.coffee__inner-name {
+.order {
+    margin-top: 100px;
 }
