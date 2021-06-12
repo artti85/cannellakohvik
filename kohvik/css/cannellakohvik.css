@@ -99,7 +99,7 @@ font-family: 'Raleway', sans-serif; */
 /* slider 
 ==============*/
 .swiper-slide img {
-    width: 100%;
+    width: 85%;
 }
 .swiper-slide {
     text-align: center;
