@@ -1,0 +1,267 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    list-style: none;
+}
+
+/* font-family: 'Caveat', cursive;
+font-family: 'Quattrocento', serif;
+font-family: 'Raleway', sans-serif; */
+.container {
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+
+/* Header 
+==============*/
+.header {
+    padding: 20px 0;
+}
+.header__top {
+    display: flex;
+    justify-content: space-between;
+}
+.header__top-column {
+    flex: 33.333%;
+    text-align: center;
+}
+.header__top-column-phone {
+    display: block;
+    text-align: left;
+    font-family: 'Quattrocento', serif;
+    /* font-family: 'Raleway', sans-serif;
+    font-feature-settings: "lnum"; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    position: relative;
+    padding-left: 28px;
+
+}
+.header__top-column-phone::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    background-image: url(../img/phone-icon.png);
+    width: 22px;
+    height: 22px;
+    margin-right: 6px;
+    margin-top: -2px;
+}
+
+.header__top-column-lang {
+    display: block;
+    text-align: right;
+}
+.header__top-logo {
+    text-align: center;
+    height: 173px;
+}
+.header__top-logo img{
+    height: 100%;
+}
+
+
+/* menu 
+==============*/
+.menu {
+    margin: 40px 0 20px 0;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #161A1D;
+
+}
+
+.menu__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu__list-item {
+    margin: 0 10px;
+}
+
+
+/* slider 
+==============*/
+.swiper-slide img {
+    width: 80%;
+}
+.swiper-slide {
+    text-align: center;
+}
+.swiper-button-next, .swiper-button-prev {
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Welcome 
+==============*/
+.welcome {
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+.welcome__subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 43px;
+    line-height: 54px;
+    letter-spacing: 2px;
+    color: #733315;
+}
+.welcome__title {
+    margin-top: 5px;
+    font-family: 'Quattrocento', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 53px;
+    line-height: 59px;
+    letter-spacing: 2px;
+    color: #161A1D;
+}
+.welcome__text {
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 740px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 28px;
+    color: #733315;
+}
+
+
+/* Cakes
+==============*/
+.cakes {
+
+    margin-top: 130px;
+    
+}
+.cakes__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.shop__item {
+    flex: 0 1 25%;
+    margin-bottom: 100px;
+    padding: 0 15px;
+}
+.cakes__img {
+    width: 260px;
+    height: 260px;
+}
+.cakes__title {
+    max-width: 280px;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    line-height: 31px;
+    color: #161A1D;
+}
+.cake__price {
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color: #733315;
+}
+
+
+.title {
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    line-height: 45px;
+    letter-spacing: 2px;
+    color: #161A1D;
+}
+.text {
+    max-width: 740px;
+    margin: 0 auto;
+    margin-top: 35px;
+    font-family: 'Caveat', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #733315;
+}
+
+
+
+/* coffee
+==============*/
+.coffee {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.coffee__inner {
+    color: #fff;
+    margin-top: 100px;
+    display: flex;
+    height: 500px;
+}
+.coffee__item {
+    font-family: 'Quattrocento', serif;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img-1 {
+    flex: 0 1 50%;
+    background-image: url(../img/coffee/a.jpg);
+}
+.img-2 {
+    flex: 0 1 25%;
+    background-image: url(../img/coffee/b.jpg);
+}
+.coffee__wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 25%;
+}
+.img-3 {
+    height: 250px;
+    background-image: url(../img/coffee/c.jpg);
+}
+.img-4 {
+    height: 250px;
+    background-image: url(../img/coffee/d.jpg);
+}
+
+.coffee__inner-price {
+}
+.coffee__inner-name {
+}
