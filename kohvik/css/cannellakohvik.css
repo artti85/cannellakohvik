@@ -21,7 +21,7 @@ font-family: 'Quattrocento', serif;
 font-family: 'Raleway', sans-serif; */
 
 body {
-    background-color: #5d5958;
+    background-color: #f0f3f1;
 }
 
 .container {
@@ -117,7 +117,7 @@ body {
 ==============*/
 
 .swiper-slide img {
-    width: 85%;
+    width: 100%;
 }
 
 .swiper-slide {
