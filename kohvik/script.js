@@ -27,6 +27,6 @@ const swiper = new Swiper('.swiper-container', {
         // stopOnLastSlide: true,
         disableOnInteraction: true,
     },
-    speed: 3900,
+    speed: 1900,
     effect: 'fade',
 });
