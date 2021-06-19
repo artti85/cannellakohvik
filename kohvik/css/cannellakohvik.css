@@ -362,6 +362,11 @@ body {
     margin-bottom: 20px;
 }
 
+.footer-worktime,
+.footer-contacts {
+    text-decoration: underline;
+}
+
 .footer-logo {
     text-align: center;
     height: 173px;
