@@ -30,3 +30,27 @@ const swiper = new Swiper('.swiper-container', {
     speed: 1900,
     effect: 'fade',
 });
+
+
+
+/* Добовляем в переменную anchors псевдомассив с ссылками в headere
+где есть решетки*/
+let anchors = document.querySelectorAll('a[href*="#"]');
+
+/* Перебираем псевдомассив */
+for (anchor of anchors) {
+    /* Если есть элемент то */
+    if (anchor) {
+        /* При нажатии на него запускается функция */
+        anchor.addEventListener('click', function(e) {
+            /* Сначала сбрасывает стандартные функции браузера */
+            e.preventDefault();
+
+            anchorId = this.getAttribute('href');
+            document.querySelector(anchorId).scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            })
+        })
+    }
+}
