@@ -140,7 +140,7 @@ body {
 }
 
 .swiper-slide {
-    text-align: center;
+    /* text-align: center; */
 }
 
 .swiper-button-next,
@@ -332,6 +332,18 @@ body {
 
 /* gallery
 ==============*/
+
+
+
+
+    
+
+
+
+
+
+
+
 
 
 /* footer

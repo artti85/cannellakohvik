@@ -1,3 +1,5 @@
+
+
 const swiper = new Swiper('.swiper-container', {
     // Optional parameters
 
@@ -30,6 +32,12 @@ const swiper = new Swiper('.swiper-container', {
     speed: 1900,
     effect: 'fade',
 });
+
+
+
+
+
+
 
 
 
