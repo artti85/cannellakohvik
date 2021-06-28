@@ -54,7 +54,7 @@ body._lock {
 
 .header__top-column-phone {
     display: block;
-    text-align: left;
+    text-align: right;
     font-family: 'Quattrocento', serif;
     /* font-family: 'Raleway', sans-serif;
     font-feature-settings: "lnum"; */
@@ -62,24 +62,22 @@ body._lock {
     font-weight: bold;
     font-size: 22px;
     position: relative;
-    padding-left: 28px;
+
 }
 
 .header__top-column-phone::before {
     position: absolute;
-    top: 0;
-    left: 0;
     content: "";
     background-image: url(../img/phone-icon.png);
     width: 22px;
     height: 22px;
-    margin-right: 6px;
     margin-top: -2px;
+    left: 0;
 }
 
 .header__top-column-lang {
     display: block;
-    text-align: right;
+    text-align: left;
 }
 
 .header__top-logo {
@@ -437,6 +435,7 @@ body._lock {
         display: none;
     }
     .menu__icon {
+
         display: block;
         z-index: 115;
         position: relative;
@@ -511,5 +510,8 @@ body._lock {
         background-color: #fff;
     }
 
+    .coffee {
+        display: none;
+    }
      
  }
