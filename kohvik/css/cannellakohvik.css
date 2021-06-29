@@ -142,8 +142,9 @@ body._lock {
 .menu__list-item:focus:after {
     width: 100%;
 }
-
-
+.menu__list-item.lang {
+    display: none;
+}
 
 
 
@@ -489,5 +490,10 @@ body._lock {
     }
     .menu__list-item:after {
         background-color: #fff;
+    }
+    .menu__list-item.lang {
+        display: block;
+        font-size: 18px;
+        font-style: italic;
     }
  }

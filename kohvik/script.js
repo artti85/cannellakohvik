@@ -44,6 +44,8 @@ const swiper = new Swiper('.swiper-container', {
 /* Добовляем в переменную anchors псевдомассив с ссылками в headere
 где есть решетки*/
 let anchors = document.querySelectorAll('a[href*="#"]');
+const iconMenu = document.querySelector('.menu__icon');
+const menuBody = document.querySelector('.menu');
 
 /* Перебираем псевдомассив */
 for (anchor of anchors) {
@@ -59,6 +61,12 @@ for (anchor of anchors) {
                 behavior: 'smooth',
                 block: 'start'
             })
+
+            if(iconMenu.classList.contains('_active')) {
+                document.body.classList.remove('_lock');
+                iconMenu.classList.remove('_active');
+                menuBody.classList.remove('_active');   
+            }
         })
     }
 }
@@ -67,8 +75,7 @@ for (anchor of anchors) {
 
 
 /* меню бургер */
-const iconMenu = document.querySelector('.menu__icon');
-const menuBody = document.querySelector('.menu');
+
 
 if(iconMenu){
     iconMenu.addEventListener("click",function(e){
@@ -76,5 +83,9 @@ if(iconMenu){
         iconMenu.classList.toggle('_active');
         menuBody.classList.toggle('_active');
     });
+
+
+
+
   
 }
