@@ -263,6 +263,7 @@ body._lock {
 .cake__price {
     margin-top: 10px;
     font-family: 'Raleway', sans-serif;
+    font-feature-settings: "lnum";
     font-weight: 400;
     font-size: 20px;
     line-height: 22px;
