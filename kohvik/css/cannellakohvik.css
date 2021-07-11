@@ -282,6 +282,9 @@ body._lock {
     margin-top: 100px;
     margin-bottom: 50px;
 }
+.coffee__inner-price {
+    margin-right: 20px;
+}
 .coffee__inner {
     color: #fff;
     margin-top: 100px;
@@ -305,13 +308,13 @@ body._lock {
 
 }
 .img-1 {
-    background-image: url(../img/coffee/a.jpg);
+    background-image: url(../img/coffee/Beetroot.jpg);
 }
 .img-2 {
-    background-image: url(../img/coffee/b.jpg);
+    background-image: url(../img/coffee/Butterfly.jpg);
 }
 .img-3 {
-    background-image: url(../img/coffee/c.jpg);
+    background-image: url(../img/coffee/Turmeric.jpg);
 }
 
 
@@ -496,7 +499,7 @@ body._lock {
 
 }
 .coffee__item {
-    min-height: 300px;
+    min-height: 400px;
     flex: 0 1 100%;
 
 }
