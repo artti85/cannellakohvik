@@ -286,7 +286,9 @@ body._lock {
     color: #fff;
     margin-top: 100px;
     display: flex;
-    height: 500px;
+    min-height: 530px;
+    
+
 }
 .coffee__item {
     font-family: 'Quattrocento', serif;
@@ -298,28 +300,20 @@ body._lock {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    flex: 0 1 33.333%;
+
+
 }
 .img-1 {
-    flex: 0 1 50%;
     background-image: url(../img/coffee/a.jpg);
 }
 .img-2 {
-    flex: 0 1 25%;
     background-image: url(../img/coffee/b.jpg);
 }
-.coffee__wrapper {
-    display: flex;
-    flex-direction: column;
-    flex: 0 1 25%;
-}
 .img-3 {
-    height: 250px;
     background-image: url(../img/coffee/c.jpg);
 }
-.img-4 {
-    height: 250px;
-    background-image: url(../img/coffee/d.jpg);
-}
+
 
 
 
@@ -387,8 +381,6 @@ body._lock {
     height: 20px;
     margin: 0 5px 0 0;
 }
-
-
 
 
 
@@ -497,4 +489,17 @@ body._lock {
         font-size: 18px;
         font-style: italic;
     }
- }
+
+    /* Coffee */
+.coffee__inner {
+    flex-wrap: wrap;
+
+}
+.coffee__item {
+    min-height: 300px;
+    flex: 0 1 100%;
+
+}
+
+    
+}
