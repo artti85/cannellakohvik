@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Quattrocento&family=Raleway:ital,wght@0,300;0,400;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cakestyle.css">
     <title>Cakename</title>
 </head>
 
@@ -13,29 +15,83 @@
         <div class="container">
             <div class="header__top">
                 <div class="header__top-column">
-                    <div href="#" class="header__top-logo">
-                        <img src="img/logo.png" alt="">
+                    <div class="menu__icon">
+                        <span></span>
+                    </div>
+                    <a href="#" class="header__top-column-lang">
+                        <img src="img/estonia.png" alt="">
+                    </a>
+                </div>
+                <div class="header__top-column">
+                    <div class="header__top-logo">
+                        <a href="">
+                            <img src="img/logo.png" alt="logo">
+                        </a>
                     </div>
                 </div>
-
-            </div>
-
-            <nav class="menu">
-                <div class="menu__btn">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <div class="header__top-column">
+                    <a href="#" class="header__top-column-phone">56263047</a>
                 </div>
+            </div>
+            <nav class="menu">
                 <ul class="menu__list">
-                    <li class="menu__list-item"><a class="menu__list-link" href="#menu">МЕНЮ</a></li>
+                    <li class="menu__list-item"><a class="menu__list-link" href="../../cannellakohvik.html#menu">МЕНЮ</a></li>
                     <li class="menu__list-item"><a class="menu__list-link" href="#order">ЗАКАЗАТЬ</a></li>
                     <li class="menu__list-item"><a class="menu__list-link" href="#coffee">НАШ КОФЕ</a></li>
                     <li class="menu__list-item"><a class="menu__list-link" href="#">ГАЛЕРЕЯ</a></li>
                     <li class="menu__list-item"><a class="menu__list-link" href="#contacts">КОНТАКТЫ</a></li>
+                    <li class="menu__list-item lang"><a class="menu__list-link" href="#">ru</a></li>
+                    <li class="menu__list-item lang"><a class="menu__list-link" href="#">ee</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+
+    <section class="cake">
+        <div class="container">
+            <div class="cake__inner">
+                <img src="img/cakes/68E5CB4C-FD49-46C8-B778-89A0FF0FD3E2.JPG" alt="" class="cake__img">
+                <div class="cake__info">
+                    <h3 class="cake__info-title">Вупи</h3>
+                    <p class="cake__info-price">3.00€</p>
+                    <div class="cake__info-consist">
+                        <h4>Состав:</h4>
+                        <p class="cake__info-consist-text">
+                            Молоко, cливки, мука.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contacts">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__inner-column">
+                    <h3 class="footer-worktime">Время работы</h3>
+                    <p>Понедельние 7-18</p>
+                    <p>Вторник 6-20</p>
+                    <p>Среда 7-22</p>
+                    <p>Четверг 9-22</p>
+                    <p>Пятница 10-18</p>
+                </div>
+                <div class="footer__inner-columnlogo">
+                    <div href="#" class="footer-logo">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="footer__inner-column">
+                    <h3 class="footer-contacts">Контакты</h3>
+                    <a href="https://goo.gl/maps/wWcfiKZ51tBg4Xkt7" class="footer-address">Nurga 1, Maardu</a>
+                    <a href="tel:37256263047" class="footer-phone">56263047</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
 </body>
 
 </html>
