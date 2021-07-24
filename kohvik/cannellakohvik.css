@@ -81,13 +81,12 @@ body._lock {
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
-
 }
 .header__top-column-phone::before {
     display: inline-block;
     margin-right: 7px;
     content: "";
-    background-image: url(../img/telephone.svg);
+    background-image: url(img/telephone.svg);
     background-position: center;
     background-repeat: no-repeat;
     height: 25px;
@@ -269,10 +268,6 @@ body._lock {
 
 
 
-
-
-
-
 /* coffee
 ==============*/
 .coffee {
@@ -299,20 +294,16 @@ body._lock {
     background-position: center;
     background-size: cover;
     flex: 0 1 33.333%;
-
-
 }
 .img-1 {
-    background-image: url(../img/coffee/Beetroot.jpg);
+    background-image: url(img/coffee/Beetroot.jpg);
 }
 .img-2 {
-    background-image: url(../img/coffee/Butterfly.jpg);
+    background-image: url(img/coffee/Butterfly.jpg);
 }
 .img-3 {
-    background-image: url(../img/coffee/Turmeric.jpg);
+    background-image: url(img/coffee/Turmeric.jpg);
 }
-
-
 
 
 
@@ -321,7 +312,6 @@ body._lock {
 .order {
     margin-top: 100px;
 }
-
 
 
 
@@ -365,7 +355,7 @@ body._lock {
 .footer-address::before {
     content: "";
     display: inline-block;
-    background-image: url(../img/home.png);
+    background-image: url(img/home.png);
     background-size: cover;
     width: 20px;
     height: 20px;
@@ -374,7 +364,7 @@ body._lock {
 .footer-phone::before {
     content: "";
     display: inline-block;
-    background-image: url(../img/telephone.svg);
+    background-image: url(img/telephone.svg);
     background-size: cover;
     width: 20px;
     height: 20px;
@@ -384,47 +374,20 @@ body._lock {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*  Media 
+/*  media 
  =================*/
 @media(max-width: 769px) {
-
-
     .header__top-column-phone {
         font-size: 18px;
-    
     }
     .header__top-column-phone::before {
         height: 18px;
         width: 18px;
     }
-
-
     .welcome__text {
         font-size: 22px;
         line-height: 1.2;
     }
-
-
-
-
     .cake__price {
         font-size: 18px;
         line-height: 1.2;
@@ -516,7 +479,6 @@ body._lock {
         font-size: 18px;
         font-style: italic;
     }
-
     /* Coffee */
     .coffee__inner {
         flex-wrap: wrap;
@@ -530,9 +492,8 @@ body._lock {
         text-align: center;
         height: 128px;
     }
-
-    
 }
+
 
 @media(max-width: 500px) {   
     .title {
