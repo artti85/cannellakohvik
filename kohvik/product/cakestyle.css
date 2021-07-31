@@ -141,16 +141,14 @@ body._lock {
 }
 
 
-.cake {
-}
-.conatiner {
-}
+
 .cake__inner {
     margin-top: 50px;
     display: flex;
 }
 .cake__img {
     width: 50%;
+    height: 100%;
 }
 .cake__info {
     width: 50%;
