@@ -249,11 +249,20 @@ body {
     margin-top: 20px;
     color: rgb(221, 208, 208);
     font-weight: 200;
+    margin-bottom: 20px;
 }
 .flex-pizza__price {
-    margin-top: 30px;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
+}
+
+.flex-pizza__width {
+    color: #FFC851;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    padding-right: 8px;
 }
 
 /* About block */
